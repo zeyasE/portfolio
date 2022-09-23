@@ -1,0 +1,71 @@
+.App {
+  /* color: white; */
+  color: black;
+  /* background-color: #1E1E1E; */
+  padding: 0 8vw;
+  background-color: white;
+  height: auto;
+  font-size: 20px;
+}
+
+.App .TabsAntd {
+  /* color: white;
+  border-bottom: none; */
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  height: 3rem;
+  transition-property: all; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 800ms;
+}
+
+.App .TabsAntd .hide {
+  top: -6rem;
+}
+
+.custom-tab{
+  height : fit-content;
+  color:#363636;
+}
+
+.boxContent {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+/* .App .TabsAntd .ant-tabs-tab:hover {
+  color: #00D4DE;
+} */
+
+
+/* .App .TabsAntd .ant-tabs-ink-bar {
+  width:max-content;
+  background-color: #00D4DE;
+} */
+
+/* .App .TabsAntd  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #00D4DE !important; 
+  font-weight: 500;
+} */
+
+.App .TabsAntd .TitleTabs {
+  font-size: 15px;
+}
+
+.ant-tabs-top > .ant-tabs-nav::before,
+.ant-tabs-bottom > .ant-tabs-nav::before,
+.ant-tabs-top > div > .ant-tabs-nav::before,
+.ant-tabs-bottom > div > .ant-tabs-nav::before {
+  border-bottom:none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
