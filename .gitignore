@@ -1,5 +1,11 @@
 node_modules/
 
 Dockerfile
-
+å
 .env
+
+build/
+
+./firebase
+
+.github
